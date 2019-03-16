@@ -1,0 +1,22 @@
+{
+  "name": "sammeh-discord-bot-structure",
+  "version": "0.0.2",
+  "description": "The structure for the sammeh-discord-bot-framework",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scootersam/discord-bot-structure.git"
+  },
+  "author": "itsmrsammeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scootersam/discord-bot-structure/issues"
+  },
+  "homepage": "https://github.com/scootersam/discord-bot-structure#readme",
+  "dependencies": {
+  }
+}
