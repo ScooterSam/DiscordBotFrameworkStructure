@@ -18,5 +18,6 @@
   },
   "homepage": "https://github.com/scootersam/discord-bot-structure#readme",
   "dependencies": {
+    "sammeh-discord-bot-framework": "*"
   }
 }
