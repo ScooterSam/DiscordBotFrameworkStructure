@@ -4,10 +4,6 @@ description: Adding additional functionality handlers
 
 # Service Providers
 
-## How they work?
-
-Becoming a super hero is a fairly straight forward process:
-
 ## What is a Service Provider?
 
 A Service Provider is loaded when you boot the framework, this allows you to essentially add any custom systems to the framework.   
