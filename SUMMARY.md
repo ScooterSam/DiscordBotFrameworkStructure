@@ -1,4 +1,5 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Getting Started](README.md)
+* [Service Providers](service-providers.md)
 
