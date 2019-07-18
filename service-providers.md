@@ -69,7 +69,31 @@ module.exports = CommandServiceProvider;
 As you can see here, on load we get all the "Commands" from the commands directory, this includes framework default commands and your own custom commands.  
 We then loop through all command files and set them on the bot instance, therefore caching them.
 
-## 
+## Available methods:
 
 
+
+### onBoot\(\)
+
+This method is called when the framework loads, this will run the code you need when everything else is initiating.
+
+### afterBoot\(\)
+
+This method is called after booting has finished and all other Service Providers/Handlers have completed the "onBoot" phase.
+
+{% hint style="info" %}
+You can add any extra methods to the Service Provider and call them when ever you wish
+{% endhint %}
+
+### Custom Methods
+
+If we add a method called **"doSomething\(\)**" we are able to call that method like this:
+
+```javascript
+this.instance.services.TestServiceProvider.doSomething();
+//or
+this.instance.service('Test').doSomething();
+//or
+this.instance.service('TestServiceProvider').doSomething()
+```
 
